@@ -3,24 +3,39 @@ div {
     background-color: #3399cc;
     border: 23px solid #2b81ac;
     color: white;
+    margin: auto;
+}
+
+h2 {
+    padding-left: 310px;
+    font-size: 37px;
 }
 
 ul {
     display: block;
-    width: 78%;
+    width: 60%;
     font-size: 0;
     margin: auto;
+    padding: 0;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 li {
     display: inline-block;
     font-size: 37px;
     color: white;
-    height: 130px;
+    height: 110px;
     text-align: center;
     vertical-align: middle;
     padding: 0;
     padding-top: 40px;
+}
+
+p {
+    padding-left: 310px;
+    font-size: 30px;
+    margin-top: 0px;
 }
 
 .top_right {
@@ -90,4 +105,12 @@ li {
 
 .deep_purple {
     background-color: #666699;
+}
+
+ul:hover li {
+    opacity: 0.5;
+}
+
+ul:hover li:hover {
+    opacity: 1;
 }
