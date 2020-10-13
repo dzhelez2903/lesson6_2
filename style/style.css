@@ -38,19 +38,6 @@ p {
     margin-top: 0px;
 }
 
-.top_right {
-    border-top: 4px solid white;
-    border-right: 4px solid white;
-}
-
-.bottom {
-    border-bottom: 4px solid white;
-}
-
-.left {
-    border-left: 4px solid white;
-}
-
 .fifty {
     width: calc((100% - 16px)/2);
 }
@@ -65,46 +52,87 @@ p {
 
 .blue {
     background-color: #3399cc;
+    border-top: solid white 4px;
+    border-right: solid white 2px;
+    border-bottom: solid white 2px;
+    border-left: solid white 4px;
 }
 
 .cyan {
-    background-color: #33cccc;
+    border-top: solid white 4px;
+    border-right: solid white 2px;
+    border-bottom: solid white 2px;
+    border-left: solid white 2px;
 }
 
 .lighte_purle {
-    background-color: #996699;
+    border-top: solid white 4px;
+    border-right: solid white 4px;
+    border-bottom: solid white 2px;
+    border-left: solid white 2px;
 }
 
 .red {
     background-color: #c24747;
+    border-top: solid white 2px;
+    border-right: solid white 2px;
+    border-bottom: solid white 2px;
+    border-left: solid white 4px;
 }
 
 .orange {
     background-color: #e2674a;
+    border-top: solid white 2px;
+    border-right: solid white 2px;
+    border-bottom: solid white 2px;
+    border-left: solid white 2px;
 }
 
 .yellow {
     background-color: #ffcc66;
+    border-top: solid white 2px;
+    border-right: solid white 2px;
+    border-bottom: solid white 2px;
+    border-left: solid white 2px;
 }
 
 .lighte_green {
-    background-color: #99cc99;
+    border-top: solid white 2px;
+    border-right: solid white 4px;
+    border-bottom: solid white 2px;
+    border-left: solid white 2px;
 }
 
 .marine {
     background-color: #669999;
+    border-top: solid white 2px;
+    border-right: solid white 2px;
+    border-bottom: solid white 2px;
+    border-left: solid white 4px;
 }
 
 .rose {
     background-color: #cc6699;
+    border-top: solid white 2px;
+    border-right: solid white 2px;
+    border-bottom: solid white 2px;
+    border-left: solid white 2px;
 }
 
 .green {
     background-color: #339966;
+    border-top: solid white 2px;
+    border-right: solid white 4px;
+    border-bottom: solid white 2px;
+    border-left: solid white 2px;
 }
 
 .deep_purple {
     background-color: #666699;
+    border-top: solid white 2px;
+    border-right: solid white 4px;
+    border-bottom: solid white 4px;
+    border-left: solid white 4px;
 }
 
 ul:hover li {
